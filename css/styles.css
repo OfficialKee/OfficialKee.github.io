@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+  position: relative;
+  
+}
+
+.image-size{
+  width: 200px; 
+    height: auto; 
+}
+
+nav{
+  position: absolute;
+}
+
+table{
+  position: relative;
+}
+cite{
+  float: right;
+  float: bottom;
+}
+
+#flag {
+  float: right;
+}
+
+header {
+  margin-top: 100px;
+}
+
+@media (max-width: 868px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px; /* Gap between columns - Casey Spaulding*/
+  justify-content: center;
+}
+
+.column {
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  background-color: hsl(245, 87%, 39%);
+  text-align: center;
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px; 
+    border: 1px solid black; 
+  }
+
+nav {
+  background-color: #2914af;
+  padding: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo img {
+  height: 50px;
+  float: left;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #f8f6f6;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #f2be22;
+}
+
+.pull-quote {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #333;
+  margin: 20px 0;
+}
+
+.pull-quote blockquote {
+  font-style: italic;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form container */
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Form header */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+img {
+  float: right;
+}
+
+/* Form input fields */
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Form textarea */
+input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
